@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "15541640951",
+    "firebase_url": "https://yuba-hunkar.firebaseio.com",
+    "project_id": "yuba-hunkar",
+    "storage_bucket": "yuba-hunkar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15541640951:android:904618e31d226e13",
+        "android_client_info": {
+          "package_name": "com.susankya.yubahunkar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15541640951-b0d1sti6hqialgrj3lm82j01d3cb1uni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.susankya.yubahunkar",
+            "certificate_hash": "8faf5036a14341e01ffcfc5f3b0373fc759f46f3"
+          }
+        },
+        {
+          "client_id": "15541640951-afejtbp1nvhrehuopkkircmtlt2ale8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNFCYRrW96pZt-sGIv-SDdOdR31KlJok"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15541640951-afejtbp1nvhrehuopkkircmtlt2ale8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarBackArrowTheme"
+        app:titleTextAppearance="@style/toolbarText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/app_name_nepali"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/three"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/dosis"
+        android:text="@string/app_description"
+        android:textColor="@android:color/background_dark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/four"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/dosis"
+        android:text="@string/app_description_two"
+        android:textColor="@android:color/background_dark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/dosis"
+        android:text="@string/contact_us"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/fb_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toStartOf="@id/website_image_view"
+        android:contentDescription="@string/facebook"
+        android:src="@drawable/ic_fb" />
+
+    <ImageView
+        android:id="@+id/website_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/website"
+        android:src="@drawable/ic_website" />
+
+    <ImageView
+        android:id="@+id/mazagine_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@id/website_image_view"
+        android:contentDescription="@string/website"
+        android:src="@drawable/ic_mazagine" />
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website_image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dosis"
+        android:text="www.yubahunkar.com"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/five"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dosis"
+        android:text="Dilli Bazar, Kathmandu, Nepal"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/six"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dosis"
+        android:text="Phone/Fax : +977-1- 4418405 "
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seven"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/dosis"
+        android:text="POBOX : 20660 "
+        android:textColor="@android:color/background_dark" />
+
+</RelativeLayout>

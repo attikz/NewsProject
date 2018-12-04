@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">Yuba Hunkar</string>
+    <string name="app_name_nepali">Yuba Hunkar</string>
+    <string name="navigation_drawer_open">Navigation Opened</string>
+    <string name="navigation_drawer_close">Navigation Closed</string>
+    <string name="home">गृहपृष्ठ</string>
+    <string name="news">समाचार </string>
+    <string name="economics">अर्थ / वाणिज्य</string>
+    <string name="thoughts">विचार</string>
+    <string name="sports">खेलकुद</string>
+    <string name="valley">उपत्यका</string>
+    <string name="entertainment">मनोरनझन</string>
+    <string name="others">अन्य</string>
+    <string name="pipe">|</string>
+    <string name="dash">-</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share app</string>
+    <string name="about">About</string>
+    <string name="app_description">Nepal\'s genuine news portal focused on youth</string>
+    <string name="app_description_two">empowerment</string>
+    <string name="app_message">Journalism for the Nation</string>
+    <string name="contact_us">Contact Us:</string>
+    <string name="facebook">Facebook</string>
+    <string name="website">Website</string>
+    <string name="post_image">Post Image</string>
+    <string name="image">Image</string>
+    <string name="no_post_message">No posts to display!</string>
+    <string name="saved_post">Saved Post</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

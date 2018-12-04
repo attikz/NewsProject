@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+        <item name="titleTextColor">@color/colorPrimary</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="ToolbarBackArrowTheme" parent="android:Theme.Holo">
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="OthersToolbarTitleTheme" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="color">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- For toolbar text -->
+    <style name="toolbarText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="color">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- For hamburger in navigation menu -->
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <!-- For three dots in menu -->
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_three_dot</item>
+    </style>
+
+</resources>

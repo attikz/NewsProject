@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="@string/news" />
+
+        <item
+            android:id="@+id/nav_economics"
+            android:icon="@drawable/ic_currency"
+            android:title="@string/economics" />
+
+        <item
+            android:id="@+id/nav_thoughts"
+            android:icon="@drawable/ic_thought"
+            android:title="@string/thoughts" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_sports"
+            android:title="@string/sports" />
+
+        <item
+            android:id="@+id/nav_valley"
+            android:icon="@drawable/ic_valley"
+            android:title="@string/valley" />
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/ic_entertainment"
+            android:title="@string/entertainment" />
+
+        <item
+            android:id="@+id/nav_others"
+            android:icon="@drawable/ic_others"
+            android:title="@string/others" />
+
+        <item android:title="@string/communicate">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_saved_post"
+                    android:icon="@drawable/ic_save"
+                    android:title="@string/saved_post" />
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/share" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
